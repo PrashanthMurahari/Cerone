@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "55596907571",
+    "project_id": "cerone-8e3f6",
+    "storage_bucket": "cerone-8e3f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55596907571:android:970e70a83963157e00b746",
+        "android_client_info": {
+          "package_name": "com.example.cerone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55596907571-rk65asnli07i10gbj8jmc34d57h3d6o1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6GLPSNglUoMECY97bxFxBZHuOgV17KbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55596907571-rk65asnli07i10gbj8jmc34d57h3d6o1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
