@@ -33,31 +33,34 @@ class EmployeesProfileState extends BasePageState<EmployeesProfile> {
             child: Column(
               children: [
                 Card(
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      const Image(
-                        image: AssetImage('isprout-logo.png'),
-                        height: 100,
-                        width: 100,
-                      ),
-                      const SizedBox(
-                        width: 20,
-                      ),
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: const [
-                          SizedBox(
-                            height: 15,
-                          ),
-                          Text('Prashanth'),
-                          SizedBox(
-                            height: 10,
-                          ),
-                          Text('Bio')
-                        ],
-                      )
-                    ],
+                  child: Padding(
+                    padding: const EdgeInsets.all(10),
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const Image(
+                          image: AssetImage('iSprout-logo.png'),
+                          height: 100,
+                          width: 100,
+                        ),
+                        const SizedBox(
+                          width: 20,
+                        ),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: const [
+                            SizedBox(
+                              height: 15,
+                            ),
+                            Text('Prashanth'),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            Text('Bio')
+                          ],
+                        )
+                      ],
+                    ),
                   ),
                 )
               ],
@@ -69,7 +72,6 @@ class EmployeesProfileState extends BasePageState<EmployeesProfile> {
           Padding(
             padding: const EdgeInsets.only(right: 20),
             child: editingButton("Create Profile", () {
-              print('Prashanth');
               Navigator.push(
                   context,
                   MaterialPageRoute(
