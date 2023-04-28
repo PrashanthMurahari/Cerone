@@ -41,4 +41,28 @@ abstract class BasePageState<T> extends State {
       ],
     );
   }
+
+  Widget textField2(TextEditingController controller,String title) {
+    return Column(
+      children: [
+        const SizedBox(
+          height: 10,
+        ),
+        TextFormField(
+          cursorColor: Colors.black,
+          cursorHeight: 20,
+          cursorWidth: 1,
+          controller: controller,
+          decoration: InputDecoration(
+            label: Text(title),
+            enabledBorder:
+            OutlineInputBorder(borderRadius: BorderRadius.circular(5)),
+            focusedBorder:
+            OutlineInputBorder(borderRadius: BorderRadius.circular(5)),
+          ),
+        ),
+      ],
+    );
+  }
+
 }
